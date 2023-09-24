@@ -1,0 +1,37 @@
+extends ./layout/index
+block slider
+    .slider 
+        h1 Aventuras del Viajero
+        em Rutas Intrépidas
+
+
+block contenido
+ div.contenedor_main
+    main.container.p-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5 
+            .col-md-6
+                p Estamos apasionados por la aventura y la exploración. Nuestra misión es inspirarte a descubrir nuevos destinos, vivir experiencias inolvidables y sumergirte en la diversidad del mundo que nos rodea. 
+                p Con años de experiencia en viajes y un equipo de apasionados trotamundos, estamos aquí para brindarte consejos, recomendaciones y relatos de primera mano que te ayudarán a planificar tus próximas aventuras.
+            .col-md-6.columna_main
+                img(src="/img/4.jpg" , class="img-fluid image" alt="",) 
+
+        
+        include ./layout/bloque_viajes   
+
+    .descuento 
+        .container 
+            .row 
+                .col-md-6 
+                    .contenido
+                        h3 5% de descuento
+                        p.titulo Viaje a canada 
+                        p.fecha 20 de marzo de 2022 - 28 de marzo de 2022
+                        p.precio $2500 USD
+
+  
+              
+
+                  
+
+    

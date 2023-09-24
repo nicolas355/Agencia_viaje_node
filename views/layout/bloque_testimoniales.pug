@@ -1,0 +1,9 @@
+.row.testimoniales 
+             each testimonial in testimoniales
+                .col-md-6.col-lg-4.mb-4
+                  .card 
+                    .card-body 
+                      blockquote.bluckquote
+                        h2 #{testimonial.nombre}
+                      p.mb-0
+                        |#{testimonial.mensaje}
